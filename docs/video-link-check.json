@@ -1,0 +1,496 @@
+{
+  "checkedAt": "2026-10-25T11:17:33.632Z",
+  "method": "YouTube public oEmbed metadata. Confirms link metadata, not playback, content accuracy, or future availability.",
+  "results": [
+    {
+      "key": "abi",
+      "url": "https://www.youtube.com/watch?v=iJYx5lJaEKM",
+      "status": "metadata-available",
+      "title": "Assembly Calling Convention - x86_64 AMD64 ABI and Stack Frame",
+      "channel": "SolidusCode"
+    },
+    {
+      "key": "activation",
+      "url": "https://www.youtube.com/watch?v=gmjzbpSVY1A",
+      "status": "metadata-available",
+      "title": "Neural Networks from Scratch - P.5 Hidden Layer Activation Functions",
+      "channel": "sentdex"
+    },
+    {
+      "key": "asan",
+      "url": "https://www.youtube.com/watch?v=wfk0K4tFHk4",
+      "status": "metadata-available",
+      "title": "AddressSanitizer Tutorial 1 - Understanding the output (Stack Overflow)",
+      "channel": "BinaryAdventure"
+    },
+    {
+      "key": "asanGdb",
+      "url": "https://www.youtube.com/watch?v=9qoKomwMgvc",
+      "status": "metadata-available",
+      "title": "AddressSanitizer Tutorial 2 - Moving to GDB (Coredump)",
+      "channel": "BinaryAdventure"
+    },
+    {
+      "key": "asanHeap",
+      "url": "https://www.youtube.com/watch?v=S8JwZv5imnc",
+      "status": "metadata-available",
+      "title": "AddressSanitizer Tutorial 3 - Heap Buffer Overflow",
+      "channel": "BinaryAdventure"
+    },
+    {
+      "key": "asmMemory",
+      "url": "https://www.youtube.com/watch?v=HahXfnOsSUU",
+      "status": "metadata-available",
+      "title": "pwn college - Assembly Crash Course - Memory",
+      "channel": "pwn.college"
+    },
+    {
+      "key": "assembly",
+      "url": "https://www.youtube.com/watch?v=TdTOH1GfrWg",
+      "status": "metadata-available",
+      "title": "pwn college - Assembly Crash Course - Assembly",
+      "channel": "pwn.college"
+    },
+    {
+      "key": "attention",
+      "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc",
+      "status": "metadata-available",
+      "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "key": "backprop",
+      "url": "https://www.youtube.com/watch?v=q8SA3rM6ckI",
+      "status": "metadata-available",
+      "title": "Building makemore Part 4: Becoming a Backprop Ninja",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "bigram",
+      "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+      "status": "metadata-available",
+      "title": "The spelled-out intro to language modeling: building makemore",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "binary",
+      "url": "https://www.youtube.com/watch?v=Uuyv88Tn9iU",
+      "status": "metadata-available",
+      "title": "Binary Search Algorithm | C Programming Example",
+      "channel": "Portfolio Courses"
+    },
+    {
+      "key": "cam",
+      "url": "https://www.youtube.com/watch?v=r5Iw28zuibM",
+      "status": "metadata-available",
+      "title": "Designing a Complete Cam Mechanism in Fusion 360 | Base, Follower, Roller, Assembly & Motion",
+      "channel": "Fusion 360 Mastery"
+    },
+    {
+      "key": "cnn",
+      "url": "https://www.youtube.com/watch?v=Lakz2MoHy6o",
+      "status": "metadata-available",
+      "title": "Convolutional Neural Network from Scratch | Mathematics & Python Code",
+      "channel": "The Independent Code"
+    },
+    {
+      "key": "control",
+      "url": "https://www.youtube.com/watch?v=0a8NlF7z7Ro",
+      "status": "metadata-available",
+      "title": "pwn college - Assembly Crash Course - Control Flow",
+      "channel": "pwn.college"
+    },
+    {
+      "key": "convolution",
+      "url": "https://www.youtube.com/watch?v=KuXjwB4LzSA",
+      "status": "metadata-available",
+      "title": "But what is a convolution?",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "key": "crank",
+      "url": "https://www.youtube.com/watch?v=qlVBGPe7Syg",
+      "status": "metadata-available",
+      "title": "Fusion 360: Slider and Crank Mechanism",
+      "channel": "Gann Engineering"
+    },
+    {
+      "key": "crankBuild",
+      "url": "https://www.youtube.com/watch?v=wflCnXvi2PM",
+      "status": "metadata-available",
+      "title": "Slider Crank Mechanism - Fusion 360 assembly tutorial for beginners",
+      "channel": "SPARK PLUG"
+    },
+    {
+      "key": "dot",
+      "url": "https://www.youtube.com/watch?v=tMrbN67U9d4",
+      "status": "metadata-available",
+      "title": "Neural Networks from Scratch - P.3 The Dot Product",
+      "channel": "sentdex"
+    },
+    {
+      "key": "doubleFree",
+      "url": "https://www.youtube.com/watch?v=jaDoXJaZoG0",
+      "status": "metadata-available",
+      "title": "S7L5. Double free | Understanding C - Pointers",
+      "channel": "Pyjama Cafe -- Embedded Systems!"
+    },
+    {
+      "key": "exec",
+      "url": "https://www.youtube.com/watch?v=uh2FqejQRk8",
+      "status": "metadata-available",
+      "title": "Executing commands in C",
+      "channel": "CodeVault"
+    },
+    {
+      "key": "export",
+      "url": "https://www.youtube.com/watch?v=I3FC69CQAKA",
+      "status": "metadata-available",
+      "title": "How to Export Your Autodesk Fusion Model for 3D Printing",
+      "channel": "Autodesk Fusion"
+    },
+    {
+      "key": "exportParts",
+      "url": "https://www.youtube.com/watch?v=RyK1pagIWvM",
+      "status": "metadata-available",
+      "title": "Exporting STL Files in Fusion 360",
+      "channel": "Product Design Online"
+    },
+    {
+      "key": "fd",
+      "url": "https://www.youtube.com/watch?v=vThzaoyEkj4",
+      "status": "metadata-available",
+      "title": "Lecture 9: dup and dup2 System Calls in Linux System Programming | File Descriptor Duplication",
+      "channel": "Embedded Pathashala"
+    },
+    {
+      "key": "fork",
+      "url": "https://www.youtube.com/watch?v=cex9XrZCU14",
+      "status": "metadata-available",
+      "title": "The fork() function in C",
+      "channel": "CodeVault"
+    },
+    {
+      "key": "fourBar",
+      "url": "https://www.youtube.com/watch?v=AtaShLPEcSI",
+      "status": "metadata-available",
+      "title": "Creating a 4-Bar Linkage in Fusion",
+      "channel": "Brad Tallis"
+    },
+    {
+      "key": "free",
+      "url": "https://www.youtube.com/watch?v=LNoeAU25uy4",
+      "status": "metadata-available",
+      "title": "Understanding free() Function in C – Avoid Memory Leaks in 3 Minutes! 🚀 | Log2Base2®",
+      "channel": "Log2Base2®"
+    },
+    {
+      "key": "fuzz",
+      "url": "https://www.youtube.com/watch?v=NiGC1jxFx78",
+      "status": "metadata-available",
+      "title": "[Fuzzing with AFL] How to fuzz a simple C program with AFL on Linux",
+      "channel": "Fuzzing_in - Hardik Shah"
+    },
+    {
+      "key": "gdb",
+      "url": "https://www.youtube.com/watch?v=Dq8l1_-QgAc",
+      "status": "metadata-available",
+      "title": "GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands",
+      "channel": "Low Level"
+    },
+    {
+      "key": "gears",
+      "url": "https://www.youtube.com/watch?v=Hw9VlV7enks",
+      "status": "metadata-available",
+      "title": "Fusion 360: Gears and Motion Link",
+      "channel": "Fusion 360 NewbiesPlus"
+    },
+    {
+      "key": "gearTools",
+      "url": "https://www.youtube.com/watch?v=XPhKfwCguLg",
+      "status": "metadata-available",
+      "title": "Fusion 360 tutorial: Making gears with a motion link and joints",
+      "channel": "Fusion Fundamentals"
+    },
+    {
+      "key": "gearTrain",
+      "url": "https://www.youtube.com/watch?v=KbhSQZ236EE",
+      "status": "metadata-available",
+      "title": "Fusion 360 GEARS GEARS GEARS!",
+      "channel": "Rob Duarte"
+    },
+    {
+      "key": "geneva",
+      "url": "https://www.youtube.com/watch?v=OWtqOoNmMs8",
+      "status": "metadata-available",
+      "title": "Geneva Mechanism in Fusion 360 | Part Design, Assembly and Animation Tutorial",
+      "channel": "CAD Design Simplified"
+    },
+    {
+      "key": "genevaDesign",
+      "url": "https://www.youtube.com/watch?v=MEqn6_4cnAY",
+      "status": "metadata-available",
+      "title": "Mecanismos que todo diseñador debe conocer | Rueda de Ginebra",
+      "channel": "Andres Cebrian"
+    },
+    {
+      "key": "gpt",
+      "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+      "status": "metadata-available",
+      "title": "Let's build GPT: from scratch, in code, spelled out.",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "gradient",
+      "url": "https://www.youtube.com/watch?v=sDv4f4s2SB8",
+      "status": "metadata-available",
+      "title": "Gradient Descent, Step-by-Step",
+      "channel": "StatQuest with Josh Starmer"
+    },
+    {
+      "key": "gradients",
+      "url": "https://www.youtube.com/watch?v=P6sfmUTpUmc",
+      "status": "metadata-available",
+      "title": "Building makemore Part 3: Activations & Gradients, BatchNorm",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "hinge",
+      "url": "https://www.youtube.com/watch?v=wFejArLliwg",
+      "status": "metadata-available",
+      "title": "Fusion Print-in-Place Hinge Tutorial (No Supports) for 3D Printing",
+      "channel": "What Make Art"
+    },
+    {
+      "key": "integer",
+      "url": "https://www.youtube.com/watch?v=HXXCdVuGm70",
+      "status": "metadata-available",
+      "title": "overflow.c:  integer overflow in C (Kevin Lynch)",
+      "channel": "Northwestern Robotics"
+    },
+    {
+      "key": "ioctl",
+      "url": "https://www.youtube.com/watch?v=JwUqXVpWrgU",
+      "status": "metadata-available",
+      "title": "IOCTL in Linux Device Drivers Explained | Safe Kernel-User Space Communication Tutorial",
+      "channel": "SystemDR - Scalable System Design "
+    },
+    {
+      "key": "joints",
+      "url": "https://www.youtube.com/watch?v=G41eJ3vQBMo",
+      "status": "metadata-available",
+      "title": "Fusion | How to create a Revolute, Slider, and Cylindrical Joint Motion",
+      "channel": "Victor Fuentes"
+    },
+    {
+      "key": "layers",
+      "url": "https://www.youtube.com/watch?v=TEWy9vZcxW4",
+      "status": "metadata-available",
+      "title": "Neural Networks from Scratch - P.4 Batches, Layers, and Objects",
+      "channel": "sentdex"
+    },
+    {
+      "key": "layout",
+      "url": "https://www.youtube.com/watch?v=wjxfpzo9y0M",
+      "status": "metadata-available",
+      "title": "Linux Process Memory Layout: Text, Data, BSS, Heap & Stack",
+      "channel": "Jyoti Singh | Embedded Internals"
+    },
+    {
+      "key": "learn",
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+      "status": "metadata-available",
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "channel": "3Blue1Brown"
+    },
+    {
+      "key": "leastSquares",
+      "url": "https://www.youtube.com/watch?v=jMpNdxnDaXg",
+      "status": "metadata-available",
+      "title": "Linear Regression From Scratch in Python (Mathematical, Closed-Form)",
+      "channel": "NeuralNine"
+    },
+    {
+      "key": "linked",
+      "url": "https://www.youtube.com/watch?v=AMzKGmPS1LM",
+      "status": "metadata-available",
+      "title": "How to Reverse Linked List | C program",
+      "channel": "SkillUp with Genie"
+    },
+    {
+      "key": "loss",
+      "url": "https://www.youtube.com/watch?v=levekYbxauw",
+      "status": "metadata-available",
+      "title": "Neural Networks from Scratch - P.8 Implementing Loss",
+      "channel": "sentdex"
+    },
+    {
+      "key": "memory",
+      "url": "https://www.youtube.com/watch?v=c7xf5dvUb_Q",
+      "status": "metadata-available",
+      "title": "The Origins of Process Memory | Exploring the Use of Various Memory Allocators in Linux C",
+      "channel": "Low Level"
+    },
+    {
+      "key": "micrograd",
+      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+      "status": "metadata-available",
+      "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "mlp",
+      "url": "https://www.youtube.com/watch?v=TCH_1BHY58I",
+      "status": "metadata-available",
+      "title": "Building makemore Part 2: MLP",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "motion",
+      "url": "https://www.youtube.com/watch?v=HR4Zv7uIYpY",
+      "status": "metadata-available",
+      "title": "Mastering Motion Study in Fusion 360: A Step-by-Step Tutorial",
+      "channel": "Fusion 360 - How Would I Do It"
+    },
+    {
+      "key": "neuron",
+      "url": "https://www.youtube.com/watch?v=Wo5dMEP_BbI",
+      "status": "metadata-available",
+      "title": "Neural Networks from Scratch - P.1 Intro and Neuron Code",
+      "channel": "sentdex"
+    },
+    {
+      "key": "parameters",
+      "url": "https://www.youtube.com/watch?v=MbJJxMlViC4",
+      "status": "metadata-available",
+      "title": "How to Use Parameters in Fusion 360 to Design Functional Parts // 3D Printing",
+      "channel": "Morley Kert"
+    },
+    {
+      "key": "parentheses",
+      "url": "https://www.youtube.com/watch?v=WTzjTskDFMg",
+      "status": "metadata-available",
+      "title": "Valid Parentheses - Stack - Leetcode 20 - Python",
+      "channel": "NeetCode"
+    },
+    {
+      "key": "partsList",
+      "url": "https://www.youtube.com/watch?v=ny7CHc3F6Vc",
+      "status": "metadata-available",
+      "title": "Fusion 360 - Assembly Drawing and Part List",
+      "channel": "Misael Martinez, MSE"
+    },
+    {
+      "key": "pooling",
+      "url": "https://www.youtube.com/watch?v=ZjM_XQa5s6s",
+      "status": "metadata-available",
+      "title": "Max Pooling in Convolutional Neural Networks explained",
+      "channel": "deeplizard"
+    },
+    {
+      "key": "rack",
+      "url": "https://www.youtube.com/watch?v=khG4Zk5XZrw",
+      "status": "metadata-available",
+      "title": "Fusion 360 Rack and Pinion Gear",
+      "channel": "Rob Duarte"
+    },
+    {
+      "key": "ratchet",
+      "url": "https://www.youtube.com/watch?v=TbgPr0gt-wA",
+      "status": "metadata-available",
+      "title": "How to design a Rachet & Pawl Mechanism in Autodesk Fusion 360 | Advanced Exercise 13",
+      "channel": "MAD' About Designs"
+    },
+    {
+      "key": "registers",
+      "url": "https://www.youtube.com/watch?v=IWbIZerH930",
+      "status": "metadata-available",
+      "title": "pwn college - Assembly Crash Course - Registers",
+      "channel": "pwn.college"
+    },
+    {
+      "key": "regression",
+      "url": "https://www.youtube.com/watch?v=Jj7WD71qQWE",
+      "status": "metadata-available",
+      "title": "Linear Regression FROM SCRATCH (no scikit-learn, just math)",
+      "channel": "Harry Connor AI"
+    },
+    {
+      "key": "reversing",
+      "url": "https://www.youtube.com/watch?v=gPsYkV7-yJk",
+      "status": "metadata-available",
+      "title": "Self-Learning Reverse Engineering in 2022",
+      "channel": "LiveOverflow"
+    },
+    {
+      "key": "sanitizer",
+      "url": "https://www.youtube.com/watch?v=tEbV21aPSKw",
+      "status": "metadata-available",
+      "title": "find memory errors quickly. (-fsanitize, addresssanitizer)",
+      "channel": "Jacob Sorber"
+    },
+    {
+      "key": "stock",
+      "url": "https://www.youtube.com/watch?v=g03ueuCwCcA",
+      "status": "metadata-available",
+      "title": "Best Time to Buy and Sell Stock Leetcode 121",
+      "channel": "Greg Hogg"
+    },
+    {
+      "key": "strace",
+      "url": "https://www.youtube.com/watch?v=mBfurelWwPQ",
+      "status": "metadata-available",
+      "title": "Using Strace to Trace Linux Syscalls",
+      "channel": "LaurieWired"
+    },
+    {
+      "key": "toctou",
+      "url": "https://www.youtube.com/watch?v=5g137gsB9Wk",
+      "status": "metadata-available",
+      "title": "File Path Race Condition & How To Prevent It - bin 0x31",
+      "channel": "LiveOverflow"
+    },
+    {
+      "key": "tokenizer",
+      "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+      "status": "metadata-available",
+      "title": "Let's build the GPT Tokenizer",
+      "channel": "Andrej Karpathy"
+    },
+    {
+      "key": "tsan",
+      "url": "https://www.youtube.com/watch?v=SiI3-pJ6MMU",
+      "status": "metadata-available",
+      "title": "Debugging Race Conditions in C++ & C Programming with ThreadSanitizer (TSan)",
+      "channel": "Undo"
+    },
+    {
+      "key": "twoSum",
+      "url": "https://www.youtube.com/watch?v=H7RkZfED8Xw",
+      "status": "metadata-available",
+      "title": "Two Sum - C - LeetCode 001",
+      "channel": "CSalt"
+    },
+    {
+      "key": "userCopy",
+      "url": "https://www.youtube.com/watch?v=okKRw2TdV00",
+      "status": "metadata-available",
+      "title": "254 Linux copy_from_user() and copy_to_user() - ioctl()  API interface -  Episode 4 #kernel #linux",
+      "channel": "The Linux Channel"
+    },
+    {
+      "key": "wait",
+      "url": "https://www.youtube.com/watch?v=kCGaRdArSnA",
+      "status": "metadata-available",
+      "title": "What is waitpid?",
+      "channel": "CodeVault"
+    },
+    {
+      "key": "xor",
+      "url": "https://www.youtube.com/watch?v=mCmoNv_SYjM",
+      "status": "metadata-available",
+      "title": "Artificial Neural Network from Scratch in Python | XOR Gate Non-Linear Data",
+      "channel": "Physics Cardio"
+    }
+  ]
+}

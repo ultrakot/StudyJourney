@@ -1,0 +1,1268 @@
+[
+  {
+    "id": "ai",
+    "name": "AI Internals",
+    "description": "From first principles to a miniature transformer.",
+    "outcome": "Implement fundamental learning algorithms in Python and assemble a miniature GPT-style character language model. Prefer Python/NumPy before high-level ML libraries; use PyTorch autograd only late in the course.",
+    "weeks": [
+      {
+        "number": 1,
+        "title": "What does it mean for a machine to learn?",
+        "exercises": [
+          {
+            "id": "ai-w1-d1",
+            "courseId": "ai",
+            "week": 1,
+            "day": 1,
+            "title": "Write a linear predictor `y = wx + b`",
+            "task": "Write a linear predictor `y = wx + b`. Change its parameters manually and observe predictions.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d2",
+            "courseId": "ai",
+            "week": 1,
+            "day": 2,
+            "title": "Implement mean squared error (MSE)",
+            "task": "Implement mean squared error (MSE). Measure how wrong your predictor is.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d3",
+            "courseId": "ai",
+            "week": 1,
+            "day": 3,
+            "title": "Write a brute-force search that finds the best `w` and `b` for a small dataset",
+            "task": "Write a brute-force search that finds the best `w` and `b` for a small dataset.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d4",
+            "courseId": "ai",
+            "week": 1,
+            "day": 4,
+            "title": "Calculate the derivative of MSE numerically using finite differences",
+            "task": "Calculate the derivative of MSE numerically using finite differences.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d5",
+            "courseId": "ai",
+            "week": 1,
+            "day": 5,
+            "title": "Implement gradient descent to update `w` and `b` automatically",
+            "task": "Implement gradient descent to update `w` and `b` automatically.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d6",
+            "courseId": "ai",
+            "week": 1,
+            "day": 6,
+            "title": "Introduce noisy data",
+            "task": "Introduce noisy data. Compare training error and test error.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w1-d7",
+            "courseId": "ai",
+            "week": 1,
+            "day": 7,
+            "title": "Mini-project: Train a model on synthetic data and plot predictions against actual values",
+            "task": "Mini-project: Train a model on synthetic data and plot predictions against actual values.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Neural networks and their building blocks",
+        "exercises": [
+          {
+            "id": "ai-w2-d8",
+            "courseId": "ai",
+            "week": 2,
+            "day": 8,
+            "title": "Implement one artificial neuron: inputs, weights, bias, and output",
+            "task": "Implement one artificial neuron: inputs, weights, bias, and output.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d9",
+            "courseId": "ai",
+            "week": 2,
+            "day": 9,
+            "title": "Implement sigmoid, ReLU, and tanh activation functions",
+            "task": "Implement sigmoid, ReLU, and tanh activation functions. Plot their behavior.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d10",
+            "courseId": "ai",
+            "week": 2,
+            "day": 10,
+            "title": "Combine multiple neurons into a fully connected layer",
+            "task": "Combine multiple neurons into a fully connected layer.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d11",
+            "courseId": "ai",
+            "week": 2,
+            "day": 11,
+            "title": "Implement matrix multiplication for a layer using NumPy",
+            "task": "Implement matrix multiplication for a layer using NumPy. Check dimensions.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d12",
+            "courseId": "ai",
+            "week": 2,
+            "day": 12,
+            "title": "Connect two layers and implement a forward pass",
+            "task": "Connect two layers and implement a forward pass.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d13",
+            "courseId": "ai",
+            "week": 2,
+            "day": 13,
+            "title": "Implement binary cross-entropy loss for a classification task",
+            "task": "Implement binary cross-entropy loss for a classification task.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w2-d14",
+            "courseId": "ai",
+            "week": 2,
+            "day": 14,
+            "title": "Mini-project: Build a network that evaluates XOR inputs, using hand-selected weights",
+            "task": "Mini-project: Build a network that evaluates XOR inputs, using hand-selected weights.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "How neural networks learn",
+        "exercises": [
+          {
+            "id": "ai-w3-d15",
+            "courseId": "ai",
+            "week": 3,
+            "day": 15,
+            "title": "Derive and code the gradient of a single neuron using the chain rule",
+            "task": "Derive and code the gradient of a single neuron using the chain rule.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d16",
+            "courseId": "ai",
+            "week": 3,
+            "day": 16,
+            "title": "Implement gradients for a fully connected layer",
+            "task": "Implement gradients for a fully connected layer.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d17",
+            "courseId": "ai",
+            "week": 3,
+            "day": 17,
+            "title": "Propagate gradients through ReLU",
+            "task": "Propagate gradients through ReLU.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d18",
+            "courseId": "ai",
+            "week": 3,
+            "day": 18,
+            "title": "Implement backpropagation through a two-layer network",
+            "task": "Implement backpropagation through a two-layer network.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d19",
+            "courseId": "ai",
+            "week": 3,
+            "day": 19,
+            "title": "Train the XOR network automatically using gradient descent",
+            "task": "Train the XOR network automatically using gradient descent.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d20",
+            "courseId": "ai",
+            "week": 3,
+            "day": 20,
+            "title": "Experiment with learning rates and diagnose unstable training",
+            "task": "Experiment with learning rates and diagnose unstable training.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w3-d21",
+            "courseId": "ai",
+            "week": 3,
+            "day": 21,
+            "title": "Mini-project: Train a tiny classifier on a 2D dataset and visualize its decision boundary",
+            "task": "Mini-project: Train a tiny classifier on a 2D dataset and visualize its decision boundary.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "How AI understands images",
+        "exercises": [
+          {
+            "id": "ai-w4-d22",
+            "courseId": "ai",
+            "week": 4,
+            "day": 22,
+            "title": "Represent a grayscale image as a matrix of pixel values",
+            "task": "Represent a grayscale image as a matrix of pixel values.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d23",
+            "courseId": "ai",
+            "week": 4,
+            "day": 23,
+            "title": "Implement a 2D convolution with a small kernel using loops",
+            "task": "Implement a 2D convolution with a small kernel using loops.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d24",
+            "courseId": "ai",
+            "week": 4,
+            "day": 24,
+            "title": "Apply edge-detection and blur kernels to a sample image",
+            "task": "Apply edge-detection and blur kernels to a sample image.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d25",
+            "courseId": "ai",
+            "week": 4,
+            "day": 25,
+            "title": "Implement max pooling and observe the information it removes",
+            "task": "Implement max pooling and observe the information it removes.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d26",
+            "courseId": "ai",
+            "week": 4,
+            "day": 26,
+            "title": "Build a simple convolution + ReLU + pooling feature extractor",
+            "task": "Build a simple convolution + ReLU + pooling feature extractor.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d27",
+            "courseId": "ai",
+            "week": 4,
+            "day": 27,
+            "title": "Compare features from images containing vertical and horizontal lines",
+            "task": "Compare features from images containing vertical and horizontal lines.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w4-d28",
+            "courseId": "ai",
+            "week": 4,
+            "day": 28,
+            "title": "Mini-project: Build a classifier for simple synthetic shapes using handcrafted convolutional features and your trained dense layer",
+            "task": "Mini-project: Build a classifier for simple synthetic shapes using handcrafted convolutional features and your trained dense layer.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "How language models work",
+        "exercises": [
+          {
+            "id": "ai-w5-d29",
+            "courseId": "ai",
+            "week": 5,
+            "day": 29,
+            "title": "Write a character tokenizer and map characters to integer IDs",
+            "task": "Write a character tokenizer and map characters to integer IDs.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d30",
+            "courseId": "ai",
+            "week": 5,
+            "day": 30,
+            "title": "Build a bigram model that predicts the next character from the previous one",
+            "task": "Build a bigram model that predicts the next character from the previous one.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d31",
+            "courseId": "ai",
+            "week": 5,
+            "day": 31,
+            "title": "Train the bigram model using character frequency counts",
+            "task": "Train the bigram model using character frequency counts. Generate text.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d32",
+            "courseId": "ai",
+            "week": 5,
+            "day": 32,
+            "title": "Implement a trainable embedding lookup table",
+            "task": "Implement a trainable embedding lookup table.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d33",
+            "courseId": "ai",
+            "week": 5,
+            "day": 33,
+            "title": "Calculate query, key, and value vectors and attention scores",
+            "task": "Calculate query, key, and value vectors and attention scores.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d34",
+            "courseId": "ai",
+            "week": 5,
+            "day": 34,
+            "title": "Implement scaled dot-product attention with causal masking",
+            "task": "Implement scaled dot-product attention with causal masking.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w5-d35",
+            "courseId": "ai",
+            "week": 5,
+            "day": 35,
+            "title": "Mini-project: Build a small single-head self-attention forward pass and inspect which tokens attend to which earlier tokens",
+            "task": "Mini-project: Build a small single-head self-attention forward pass and inspect which tokens attend to which earlier tokens.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Build a miniature transformer",
+        "exercises": [
+          {
+            "id": "ai-w6-d36",
+            "courseId": "ai",
+            "week": 6,
+            "day": 36,
+            "title": "Implement positional embeddings and combine them with token embeddings",
+            "task": "Implement positional embeddings and combine them with token embeddings.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d37",
+            "courseId": "ai",
+            "week": 6,
+            "day": 37,
+            "title": "Build a single-head causal self-attention layer",
+            "task": "Build a single-head causal self-attention layer.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d38",
+            "courseId": "ai",
+            "week": 6,
+            "day": 38,
+            "title": "Implement a feed-forward subnetwork with residual connections",
+            "task": "Implement a feed-forward subnetwork with residual connections.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d39",
+            "courseId": "ai",
+            "week": 6,
+            "day": 39,
+            "title": "Assemble a minimal transformer forward pass with layer normalization",
+            "task": "Assemble a minimal transformer forward pass with layer normalization.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d40",
+            "courseId": "ai",
+            "week": 6,
+            "day": 40,
+            "title": "Implement cross-entropy loss and verify gradients on a tiny example",
+            "task": "Implement cross-entropy loss and verify gradients on a tiny example.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d41",
+            "courseId": "ai",
+            "week": 6,
+            "day": 41,
+            "title": "Train a very small transformer using PyTorch autograd while retaining your own architecture code",
+            "task": "Train a very small transformer using PyTorch autograd while retaining your own architecture code.",
+            "isMiniProject": false
+          },
+          {
+            "id": "ai-w6-d42",
+            "courseId": "ai",
+            "week": 6,
+            "day": 42,
+            "title": "Final project: Generate text, inspect attention, and explain every major part of your model",
+            "task": "Final project: Generate text, inspect attention, and explain every major part of your model.",
+            "isMiniProject": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fusion",
+    "name": "Fusion 360 Mechanisms",
+    "description": "Turn ideas into real, moving mechanisms.",
+    "outcome": "Work backward from desired movement to a parameterized, motion-tested, 3D-printable mechanical assembly. Favor features available in Fusion 360 Personal; do not imply that joint animation validates torque, contact, friction, or real-world durability. Printer runtime is outside the 30-minute session.",
+    "weeks": [
+      {
+        "number": 1,
+        "title": "Foundations of moving assemblies",
+        "exercises": [
+          {
+            "id": "fusion-w1-d1",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 1,
+            "title": "Create two components connected by a revolute joint",
+            "task": "Create two components connected by a revolute joint. Test rotation.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d2",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 2,
+            "title": "Create a slider with a prismatic joint",
+            "task": "Create a slider with a prismatic joint. Restrict its travel to 30 mm.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d3",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 3,
+            "title": "Create a hinge with defined rotation limits and inspect its range of motion",
+            "task": "Create a hinge with defined rotation limits and inspect its range of motion.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d4",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 4,
+            "title": "Create a simple pin-and-hole connection with a parameterized clearance",
+            "task": "Create a simple pin-and-hole connection with a parameterized clearance.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d5",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 5,
+            "title": "Model a shaft supported by two brackets",
+            "task": "Model a shaft supported by two brackets. Keep the shaft free to rotate.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d6",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 6,
+            "title": "Design a printable hinge and export its separate parts as STL or 3MF",
+            "task": "Design a printable hinge and export its separate parts as STL or 3MF.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w1-d7",
+            "courseId": "fusion",
+            "week": 1,
+            "day": 7,
+            "title": "Mini-project: Create a small hinged arm with a printable pin and verify its range of movement",
+            "task": "Mini-project: Create a small hinged arm with a printable pin and verify its range of movement.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Transforming movement using linkages",
+        "exercises": [
+          {
+            "id": "fusion-w2-d8",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 8,
+            "title": "Model a crank and observe the circular path of its endpoint",
+            "task": "Model a crank and observe the circular path of its endpoint.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d9",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 9,
+            "title": "Connect a crank to a connecting rod using revolute joints",
+            "task": "Connect a crank to a connecting rod using revolute joints.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d10",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 10,
+            "title": "Add a guided slider to create a complete slider-crank assembly",
+            "task": "Add a guided slider to create a complete slider-crank assembly.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d11",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 11,
+            "title": "Change crank radius and measure the resulting slider stroke",
+            "task": "Change crank radius and measure the resulting slider stroke.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d12",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 12,
+            "title": "Build a basic four-bar linkage with a grounded frame",
+            "task": "Build a basic four-bar linkage with a grounded frame.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d13",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 13,
+            "title": "Change linkage lengths and compare output movement and reachable positions",
+            "task": "Change linkage lengths and compare output movement and reachable positions.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w2-d14",
+            "courseId": "fusion",
+            "week": 2,
+            "day": 14,
+            "title": "Mini-project: Design a 3D-printable hand-operated reciprocating mechanism with a specified stroke",
+            "task": "Mini-project: Design a 3D-printable hand-operated reciprocating mechanism with a specified stroke.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Gears and transmitting motion",
+        "exercises": [
+          {
+            "id": "fusion-w3-d15",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 15,
+            "title": "Generate a pair of involute spur gears using an available Fusion gear generator",
+            "task": "Generate a pair of involute spur gears using an available Fusion gear generator.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d16",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 16,
+            "title": "Calculate gear ratios and verify the relative rotation using motion links",
+            "task": "Calculate gear ratios and verify the relative rotation using motion links.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d17",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 17,
+            "title": "Build a three-gear train and observe how direction changes",
+            "task": "Build a three-gear train and observe how direction changes.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d18",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 18,
+            "title": "Design a gear pair for a 3:1 speed reduction",
+            "task": "Design a gear pair for a 3:1 speed reduction.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d19",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 19,
+            "title": "Build a rack-and-pinion mechanism to convert rotation into translation",
+            "task": "Build a rack-and-pinion mechanism to convert rotation into translation.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d20",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 20,
+            "title": "Design gear shafts, supports, and clearances for printing",
+            "task": "Design gear shafts, supports, and clearances for printing.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w3-d21",
+            "courseId": "fusion",
+            "week": 3,
+            "day": 21,
+            "title": "Mini-project: Create a printable hand-cranked gearbox with a specified ratio",
+            "task": "Mini-project: Create a printable hand-cranked gearbox with a specified ratio.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "Cams and unusual movement",
+        "exercises": [
+          {
+            "id": "fusion-w4-d22",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 22,
+            "title": "Model an eccentric cam and observe its changing effective radius",
+            "task": "Model an eccentric cam and observe its changing effective radius.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d23",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 23,
+            "title": "Build a cam follower guided by a slider joint",
+            "task": "Build a cam follower guided by a slider joint.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d24",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 24,
+            "title": "Design a cam profile that creates a rise, dwell, and return",
+            "task": "Design a cam profile that creates a rise, dwell, and return.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d25",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 25,
+            "title": "Inspect a Geneva drive and model its driver and driven wheel",
+            "task": "Inspect a Geneva drive and model its driver and driven wheel.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d26",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 26,
+            "title": "Design a Geneva mechanism with a four-position indexing wheel",
+            "task": "Design a Geneva mechanism with a four-position indexing wheel.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d27",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 27,
+            "title": "Model a simple ratchet and pawl; examine its engagement geometry",
+            "task": "Model a simple ratchet and pawl; examine its engagement geometry.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w4-d28",
+            "courseId": "fusion",
+            "week": 4,
+            "day": 28,
+            "title": "Mini-project: Design a mechanism that lifts an object, holds it briefly, and lowers it during one input cycle",
+            "task": "Mini-project: Design a mechanism that lifts an object, holds it briefly, and lowers it during one input cycle.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Designing from a desired movement",
+        "exercises": [
+          {
+            "id": "fusion-w5-d29",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 29,
+            "title": "Define a desired movement using start position, end position, travel, and timing",
+            "task": "Define a desired movement using start position, end position, travel, and timing.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d30",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 30,
+            "title": "Compare slider-crank, cam, and four-bar solutions for the same movement",
+            "task": "Compare slider-crank, cam, and four-bar solutions for the same movement.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d31",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 31,
+            "title": "Sketch the output trajectory and identify required degrees of freedom",
+            "task": "Sketch the output trajectory and identify required degrees of freedom.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d32",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 32,
+            "title": "Select a mechanism and calculate its initial dimensions",
+            "task": "Select a mechanism and calculate its initial dimensions.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d33",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 33,
+            "title": "Model the mechanism using named parameters so dimensions can change easily",
+            "task": "Model the mechanism using named parameters so dimensions can change easily.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d34",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 34,
+            "title": "Check motion range, collisions, and problematic joint configurations",
+            "task": "Check motion range, collisions, and problematic joint configurations.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w5-d35",
+            "courseId": "fusion",
+            "week": 5,
+            "day": 35,
+            "title": "Mini-project: Design a mechanism that moves a platform through a specified path using one rotary input",
+            "task": "Mini-project: Design a mechanism that moves a platform through a specified path using one rotary input.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Build a real 3D-printable mechanism",
+        "exercises": [
+          {
+            "id": "fusion-w6-d36",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 36,
+            "title": "Define a final movement challenge, such as a walking leg or lifting platform",
+            "task": "Define a final movement challenge, such as a walking leg or lifting platform.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d37",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 37,
+            "title": "Sketch the mechanism and determine its joints and dimensions",
+            "task": "Sketch the mechanism and determine its joints and dimensions.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d38",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 38,
+            "title": "Model the main moving components parametrically",
+            "task": "Model the main moving components parametrically.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d39",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 39,
+            "title": "Assemble the mechanism and verify its motion with Fusion joints",
+            "task": "Assemble the mechanism and verify its motion with Fusion joints.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d40",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 40,
+            "title": "Add printable pins, spacers, supports, and adjustable clearances",
+            "task": "Add printable pins, spacers, supports, and adjustable clearances.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d41",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 41,
+            "title": "Export the parts, inspect them in a slicer, and correct printability problems",
+            "task": "Export the parts, inspect them in a slicer, and correct printability problems.",
+            "isMiniProject": false
+          },
+          {
+            "id": "fusion-w6-d42",
+            "courseId": "fusion",
+            "week": 6,
+            "day": 42,
+            "title": "Final project: Produce an assembly, bill of parts, and motion demonstration; print and test if time and hardware permit",
+            "task": "Final project: Produce an assembly, bill of parts, and motion demonstration; print and test if time and hardware permit.",
+            "isMiniProject": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "linux",
+    "name": "Linux Reverse Engineering & Security",
+    "description": "Understand systems. Investigate what lies beneath.",
+    "outcome": "Develop interview-ready Linux/C/x86-64 debugging, assembly-reading, TOCTOU, and memory-corruption skills. All vulnerable programs should be isolated local educational examples. Tools: Ubuntu, gcc/clang, GDB, objdump, strace, sanitizers.",
+    "weeks": [
+      {
+        "number": 1,
+        "title": "Linux fundamentals",
+        "exercises": [
+          {
+            "id": "linux-w1-d1",
+            "courseId": "linux",
+            "week": 1,
+            "day": 1,
+            "title": "Use `ps`, `/proc`, and `strace` to observe a running Linux process",
+            "task": "Use `ps`, `/proc`, and `strace` to observe a running Linux process.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d2",
+            "courseId": "linux",
+            "week": 1,
+            "day": 2,
+            "title": "Write a C program using `fork()` and explain why it returns twice",
+            "task": "Write a C program using `fork()` and explain why it returns twice.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d3",
+            "courseId": "linux",
+            "week": 1,
+            "day": 3,
+            "title": "Use `execve()` and `waitpid()`; trace the resulting process behavior",
+            "task": "Use `execve()` and `waitpid()`; trace the resulting process behavior.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d4",
+            "courseId": "linux",
+            "week": 1,
+            "day": 4,
+            "title": "Examine `/proc/self/maps` and identify stack, heap, and executable mappings",
+            "task": "Examine `/proc/self/maps` and identify stack, heap, and executable mappings.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d5",
+            "courseId": "linux",
+            "week": 1,
+            "day": 5,
+            "title": "Use GDB to inspect local variables, addresses, and a function's stack frame",
+            "task": "Use GDB to inspect local variables, addresses, and a function's stack frame.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d6",
+            "courseId": "linux",
+            "week": 1,
+            "day": 6,
+            "title": "Easy LeetCode: Two Sum in C, with a simple array-based solution",
+            "task": "Easy LeetCode: Two Sum in C, with a simple array-based solution.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w1-d7",
+            "courseId": "linux",
+            "week": 1,
+            "day": 7,
+            "title": "Assembly puzzle: Identify the return value of a short function using `mov`, `add`, and `ret`",
+            "task": "Assembly puzzle: Identify the return value of a short function using `mov`, `add`, and `ret`.",
+            "isMiniProject": false
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "title": "Assembly and reverse engineering",
+        "exercises": [
+          {
+            "id": "linux-w2-d8",
+            "courseId": "linux",
+            "week": 2,
+            "day": 8,
+            "title": "Learn x86-64 registers and the Linux System V calling convention",
+            "task": "Learn x86-64 registers and the Linux System V calling convention.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d9",
+            "courseId": "linux",
+            "week": 2,
+            "day": 9,
+            "title": "Assembly puzzle: Trace `cmp`, `test`, and conditional jumps",
+            "task": "Assembly puzzle: Trace `cmp`, `test`, and conditional jumps.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d10",
+            "courseId": "linux",
+            "week": 2,
+            "day": 10,
+            "title": "Compile a C loop with `-O0` and read its assembly using `objdump`",
+            "task": "Compile a C loop with `-O0` and read its assembly using `objdump`.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d11",
+            "courseId": "linux",
+            "week": 2,
+            "day": 11,
+            "title": "Assembly puzzle: Reconstruct a loop that sums integers",
+            "task": "Assembly puzzle: Reconstruct a loop that sums integers.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d12",
+            "courseId": "linux",
+            "week": 2,
+            "day": 12,
+            "title": "Use GDB to step through instructions and inspect register changes",
+            "task": "Use GDB to step through instructions and inspect register changes.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d13",
+            "courseId": "linux",
+            "week": 2,
+            "day": 13,
+            "title": "Easy LeetCode: Valid Parentheses in C",
+            "task": "Easy LeetCode: Valid Parentheses in C.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w2-d14",
+            "courseId": "linux",
+            "week": 2,
+            "day": 14,
+            "title": "Mini-challenge: Reverse engineer a compiled function before reading its source",
+            "task": "Mini-challenge: Reverse engineer a compiled function before reading its source.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "title": "Memory corruption",
+        "exercises": [
+          {
+            "id": "linux-w3-d15",
+            "courseId": "linux",
+            "week": 3,
+            "day": 15,
+            "title": "Trigger a stack buffer overflow in a local test program and detect it with AddressSanitizer",
+            "task": "Trigger a stack buffer overflow in a local test program and detect it with AddressSanitizer.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d16",
+            "courseId": "linux",
+            "week": 3,
+            "day": 16,
+            "title": "Find an out-of-bounds read in a C array-processing function",
+            "task": "Find an out-of-bounds read in a C array-processing function.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d17",
+            "courseId": "linux",
+            "week": 3,
+            "day": 17,
+            "title": "Create a use-after-free example and inspect the sanitizer report",
+            "task": "Create a use-after-free example and inspect the sanitizer report.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d18",
+            "courseId": "linux",
+            "week": 3,
+            "day": 18,
+            "title": "Diagnose a double-free and explain allocator ownership",
+            "task": "Diagnose a double-free and explain allocator ownership.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d19",
+            "courseId": "linux",
+            "week": 3,
+            "day": 19,
+            "title": "Investigate integer overflow in a size calculation",
+            "task": "Investigate integer overflow in a size calculation.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d20",
+            "courseId": "linux",
+            "week": 3,
+            "day": 20,
+            "title": "Easy LeetCode: Best Time to Buy and Sell Stock in C",
+            "task": "Easy LeetCode: Best Time to Buy and Sell Stock in C.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w3-d21",
+            "courseId": "linux",
+            "week": 3,
+            "day": 21,
+            "title": "Assembly puzzle: Recognize array indexing and pointer arithmetic",
+            "task": "Assembly puzzle: Recognize array indexing and pointer arithmetic.",
+            "isMiniProject": false
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "title": "TOCTOU and race conditions",
+        "exercises": [
+          {
+            "id": "linux-w4-d22",
+            "courseId": "linux",
+            "week": 4,
+            "day": 22,
+            "title": "Read a vulnerable `access()` followed by `open()` example and identify the race window",
+            "task": "Read a vulnerable `access()` followed by `open()` example and identify the race window.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d23",
+            "courseId": "linux",
+            "week": 4,
+            "day": 23,
+            "title": "Build a controlled file-replacement race in a temporary directory",
+            "task": "Build a controlled file-replacement race in a temporary directory.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d24",
+            "courseId": "linux",
+            "week": 4,
+            "day": 24,
+            "title": "Examine how symlinks can change what a pathname resolves to",
+            "task": "Examine how symlinks can change what a pathname resolves to.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d25",
+            "courseId": "linux",
+            "week": 4,
+            "day": 25,
+            "title": "Fix a pathname TOCTOU using descriptor-based operations and appropriate `openat`/`openat2` protections",
+            "task": "Fix a pathname TOCTOU using descriptor-based operations and appropriate `openat`/`openat2` protections.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d26",
+            "courseId": "linux",
+            "week": 4,
+            "day": 26,
+            "title": "Write a two-thread counter and observe a data race using ThreadSanitizer",
+            "task": "Write a two-thread counter and observe a data race using ThreadSanitizer.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d27",
+            "courseId": "linux",
+            "week": 4,
+            "day": 27,
+            "title": "Easy LeetCode: Binary Search in C",
+            "task": "Easy LeetCode: Binary Search in C.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w4-d28",
+            "courseId": "linux",
+            "week": 4,
+            "day": 28,
+            "title": "Mini-project: Audit three short C snippets for TOCTOU and explain the fixes",
+            "task": "Mini-project: Audit three short C snippets for TOCTOU and explain the fixes.",
+            "isMiniProject": true
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "title": "Kernel interfaces and research",
+        "exercises": [
+          {
+            "id": "linux-w5-d29",
+            "courseId": "linux",
+            "week": 5,
+            "day": 29,
+            "title": "Trace `read`, `write`, and `openat` from user space using `strace`",
+            "task": "Trace `read`, `write`, and `openat` from user space using `strace`.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d30",
+            "courseId": "linux",
+            "week": 5,
+            "day": 30,
+            "title": "Inspect file descriptor behavior with `dup`, `close`, and `/proc/self/fd`",
+            "task": "Inspect file descriptor behavior with `dup`, `close`, and `/proc/self/fd`.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d31",
+            "courseId": "linux",
+            "week": 5,
+            "day": 31,
+            "title": "Study `ioctl` and write a tiny user-space program that calls an existing safe ioctl",
+            "task": "Study `ioctl` and write a tiny user-space program that calls an existing safe ioctl.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d32",
+            "courseId": "linux",
+            "week": 5,
+            "day": 32,
+            "title": "Compare `copy_from_user` and `copy_to_user` concepts in Linux kernel code",
+            "task": "Compare `copy_from_user` and `copy_to_user` concepts in Linux kernel code.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d33",
+            "courseId": "linux",
+            "week": 5,
+            "day": 33,
+            "title": "Fuzz a small C parser using a simple mutation-based harness",
+            "task": "Fuzz a small C parser using a simple mutation-based harness.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d34",
+            "courseId": "linux",
+            "week": 5,
+            "day": 34,
+            "title": "Use GDB and AddressSanitizer to identify the cause of a generated crash",
+            "task": "Use GDB and AddressSanitizer to identify the cause of a generated crash.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w5-d35",
+            "courseId": "linux",
+            "week": 5,
+            "day": 35,
+            "title": "Assembly puzzle: Reconstruct a function that checks a password-like byte sequence",
+            "task": "Assembly puzzle: Reconstruct a function that checks a password-like byte sequence.",
+            "isMiniProject": false
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "title": "Interview simulation",
+        "exercises": [
+          {
+            "id": "linux-w6-d36",
+            "courseId": "linux",
+            "week": 6,
+            "day": 36,
+            "title": "Timed assembly puzzle: Explain a function with branches and a loop",
+            "task": "Timed assembly puzzle: Explain a function with branches and a loop.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w6-d37",
+            "courseId": "linux",
+            "week": 6,
+            "day": 37,
+            "title": "Timed C challenge: Find two memory-safety bugs in a short function",
+            "task": "Timed C challenge: Find two memory-safety bugs in a short function.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w6-d38",
+            "courseId": "linux",
+            "week": 6,
+            "day": 38,
+            "title": "Timed TOCTOU challenge: Identify a race and propose a safe redesign",
+            "task": "Timed TOCTOU challenge: Identify a race and propose a safe redesign.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w6-d39",
+            "courseId": "linux",
+            "week": 6,
+            "day": 39,
+            "title": "Easy LeetCode: Reverse Linked List in C",
+            "task": "Easy LeetCode: Reverse Linked List in C.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w6-d40",
+            "courseId": "linux",
+            "week": 6,
+            "day": 40,
+            "title": "Reverse engineer a small stripped binary with GDB and `objdump`",
+            "task": "Reverse engineer a small stripped binary with GDB and `objdump`.",
+            "isMiniProject": false
+          },
+          {
+            "id": "linux-w6-d41",
+            "courseId": "linux",
+            "week": 6,
+            "day": 41,
+            "title": "Mini research challenge: Reproduce, explain, and fix a controlled vulnerability",
+            "task": "Mini research challenge: Reproduce, explain, and fix a controlled vulnerability.",
+            "isMiniProject": true
+          },
+          {
+            "id": "linux-w6-d42",
+            "courseId": "linux",
+            "week": 6,
+            "day": 42,
+            "title": "Mock interview: Assembly, TOCTOU, memory corruption, Linux internals, and algorithmic reasoning",
+            "task": "Mock interview: Assembly, TOCTOU, memory corruption, Linux internals, and algorithmic reasoning.",
+            "isMiniProject": true
+          }
+        ]
+      }
+    ]
+  }
+]
